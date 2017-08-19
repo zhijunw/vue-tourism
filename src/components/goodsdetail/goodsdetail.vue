@@ -165,7 +165,7 @@ export default {
     scrollEment(item, index) {
       let sitesName = item.sitesName
       this.currentIndex = index
-      console.log(sitesName)
+      // console.log(sitesName)
       if (sitesName === this.getSitesName[0].sitesName) {
         let el_one = this.$refs.h2Height[0];
         this.scroll.scrollToElement(el_one, 500);

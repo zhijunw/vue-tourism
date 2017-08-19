@@ -36,7 +36,10 @@ export default new Vuex.Store({
       state.favourite = data
     },
     keepZan(state, data) {
-      state.keepZan = data
-    }
+      state.keepZan.push(data)
+    },
+    Zan(state, data) {
+      state.keepZan.splice(state.keepZan.indexOf(data), 1);
+    },
   }
 })

@@ -74,12 +74,10 @@ export default {
         this.$store.commit("favourites", "icon-zan1")
         this.$store.commit("showZan", true)
         this.$store.commit("keepZan",this.select)
-
       } else {
         this.$store.commit("favourites", "icon-zan")
+        this.$store.commit("Zan",this.select)
         this.$store.commit("showZan", false)
-        this.$store.commit("keepZan",this.select)
-
       }
     },
     collects() {

@@ -95,12 +95,12 @@ export default {
         this.$store.commit("showLike", false)
 
       }
-      if (JSON.stringify(this.$store.state.keepZan).indexOf(JSON.stringify(item)) != -1) {
-        this.$store.commit("favourites", "icon-zan1")
-        this.$store.commit("showZan", true)
-      } else {
+      if (JSON.stringify(this.$store.state.keepZan).indexOf(JSON.stringify(item)) == -1) {
         this.$store.commit("favourites", "icon-zan")
         this.$store.commit("showZan", false)
+      } else {
+        this.$store.commit("favourites", "icon-zan1")
+        this.$store.commit("showZan", true)
       }
     }
   }
@@ -116,6 +116,7 @@ export default {
   height: @h;
   line-height: @l;
 }
+
 
 
 
