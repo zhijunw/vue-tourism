@@ -57,29 +57,30 @@ npm run build
 
 ### 详情 ###
  *   登录展示
-![图片](/Users/wzj/Desktop/img/gif/1.gif)
+![图片](https://ws1.sinaimg.cn/large/8d59b975gy1fipm2ydo9zg20ey0ige83.jpg)
+
 
 *   精选页面1
-![图片](/Users/wzj/Desktop/img/gif/2.gif)
+![图片](https://ws1.sinaimg.cn/large/8d59b975gy1fipm37vr7xg20ey0ig7wi.jpg)
 *  精选页面2
-![图片](/Users/wzj/Desktop/img/gif/3.gif)
+![图片](https://ws1.sinaimg.cn/large/8d59b975gy1fipm3h6u6ag209k0dchdt.jpg)
 
 *   目的地
-![图片](/Users/wzj/Desktop/img/gif/4.gif)
+![图片](https://ws1.sinaimg.cn/large/8d59b975gy1fipm3ugxdvg209g0dce81.jpg)
 
 *    我的行程
-![图片](/Users/wzj/Desktop/img/gif/6.gif)
+![图片](https://ws1.sinaimg.cn/large/8d59b975ly1fipm1id6fbg208s0dc15p.jpg)
 
 
 
 *   组件
-![图片](/Users/wzj/Desktop/img/gif/6.png)
+![图片](https://ws1.sinaimg.cn/large/8d59b975ly1fipm1immeyj20m60j3abo.jpg)
 
 *  路由
-![图片](/Users/wzj/Desktop/img/gif/7.png)
+![图片](https://ws1.sinaimg.cn/large/8d59b975ly1fipm1jcw9ij20rd0jltdt.jpg)
 
 *  store
-![图片](/Users/wzj/Desktop/img/gif/8.png)
+![图片](https://ws1.sinaimg.cn/large/8d59b975ly1fipm1ju536j20r90idwhn.jpg)
 
 
 
@@ -92,7 +93,7 @@ npm run build
 *   在实现精选详情页里面的收藏 和赞 的功能中，在当前页面点了赞和收藏 返回之后在下个页面中显示上个页面的状态，本来不想用vuex，不过用起来真的爽。如下
 
 解决方法在精选页面点击之前做判断，如下
-![图片](/Users/wzj/Desktop/img/gif/10.png)
+![图片](https://ws1.sinaimg.cn/large/8d59b975ly1fipm1kgx2xj20rl0g8q75.jpg)
 *   better-scroll 的坑，由于better-scroll是操作DOM的，把要执行的滚动函数尽可能的放在 updated钩子函数中，并且要放在$this.nextTick()中。它的滚动原理是要子元素的高度要大于父元素的高度，所以才会产生滚动，故CSS的代码要写好 如
  
         parent{
