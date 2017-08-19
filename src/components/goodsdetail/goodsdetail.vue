@@ -744,11 +744,11 @@ export default {
 
 @keyframes down {
   0% {
-    transform: translateX(0) rotate(-90deg) ;
+    transform: translateX(0) rotate(-90deg);
     opacity: 1;
   }
   100% {
-    transform: translateX(20px) rotate(-90deg) ;
+    transform: translateX(20px) rotate(-90deg);
     opacity: 0;
     width: 25px;
     margin-left: -5px;

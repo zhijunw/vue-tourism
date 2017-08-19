@@ -72,7 +72,7 @@ export default {
         } else {
           this.goodsList.refresh()
         }
-      }, 500)
+      }, 300)
     },
     // 详情页展示
     openDetail(item, event) {
