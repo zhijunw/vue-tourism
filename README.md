@@ -57,13 +57,13 @@ npm run build
 
 ### 详情 ###
  *   登录展示
-![图片](https://ws1.sinaimg.cn/large/8d59b975gy1fipm2ydo9zg20ey0ige83.jpg)
+![图片](https://ws1.sinaimg.cn/large/8d59b975ly1fiq4ekvzy8g20ey0ignpd.jpg)
 
 
 *   精选页面1
-![图片](https://ws1.sinaimg.cn/large/8d59b975gy1fipm37vr7xg20ey0ig7wi.jpg)
+![图片](https://ws1.sinaimg.cn/large/8d59b975ly1fiq4cjb70ig209k0dchdt.jpg)
 *  精选页面2
-![图片](https://ws1.sinaimg.cn/large/8d59b975gy1fipm3h6u6ag209k0dchdt.jpg)
+![图片](https://ws1.sinaimg.cn/large/8d59b975ly1fiq4dj37atg20ey0ighdt.jpg)
 
 *   目的地
 ![图片](https://ws1.sinaimg.cn/large/8d59b975gy1fipm3ugxdvg209g0dce81.jpg)
